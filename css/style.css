@@ -22,14 +22,11 @@
   --headerborder: #ececec;
 }
 
-
-.icon-header
-{
-  fill; black;
+.icon-header {
+  fill: var(--graytextntwo);
 }
 
-.icon-header:hover
-{
+.icon-header:hover {
   fill: var(--blue);
 }
 
@@ -42,8 +39,7 @@
   margin-top: 20px;
 }
 
-.advatange-icon-div
-{
+.advatange-icon-div {
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -195,31 +191,14 @@
 .h1-and-button-on-grey {
   padding-top: 200px;
   padding-bottom: 200px;
-  /**/
 }
 
 .hover-link:hover {
   color: var(--blue);
 }
 
-/*.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: var(--graytextntwo);
-}*/
-/*.icon-phoneaparat {
-  width: 0.625em;
-}*/
-
 .icon:hover {
   fill: var(--blue);
-}
-
-.icon-Line1
-{
 }
 
 .li-div-header {
