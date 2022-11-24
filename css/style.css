@@ -34,7 +34,7 @@
 .address-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 120px;
+  width: 231px;
 }
 
 .adress-links-position {
@@ -148,6 +148,8 @@
   height: 44px;
   border-radius: 50%;
   background-color: var(--white) 10%;
+
+  position: relative;
 }
 
 .feature-specifics {
@@ -190,12 +192,22 @@
   color: var(--footertextbelow);
 }
 
+.footer-cont {
+  display: flex;
+  justify-content: start;
+}
+
 .footer-logo-color {
   color: var(--white);
 }
 
 .footer-share-one-button {
   fill: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .footer-shares {
@@ -259,6 +271,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
+
+  margin-bottom: 20px;
 }
 
 .li-div-header {
