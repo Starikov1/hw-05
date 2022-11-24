@@ -108,6 +108,7 @@
   height: 92px;
   display: flex;
   justify-content: center;
+  float: left;
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -115,6 +116,7 @@
 .client-svg-set {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .common-upper-down {
