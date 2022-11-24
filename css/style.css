@@ -20,6 +20,7 @@
   --graytextntwo: #757575;
   --lightbuttons: #f5f4fa;
   --headerborder: #ececec;
+  --secondborder: #afb1b8;
 }
 
 .icon-header {
@@ -45,7 +46,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*position: absolute;*/
   display: flex;
   justify-content: center;
 }
@@ -110,10 +110,13 @@
   justify-content: center;
   padding-top: 16px;
   padding-bottom: 16px;
+  border: 1px solid var(--secondborder);
+  border-radius: 4px;
 }
 
 .client-svg-set {
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
   width: 100%;
   float: left;
@@ -268,7 +271,6 @@
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /**/
 }
 
 .logo-left-header {
