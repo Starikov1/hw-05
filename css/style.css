@@ -226,6 +226,14 @@
   fill: var(--blue);
 }
 
+.icon-Line1 {
+  fill: var(--graydarkcolor);
+}
+
+.icon-Line1:hover {
+  fill: var(--blue);
+}
+
 .li-div-header {
   width: auto;
   display: inline-block;
