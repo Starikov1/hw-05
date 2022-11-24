@@ -34,7 +34,7 @@
 .address-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  width: auto;
+  width: 120px;
 }
 
 .adress-links-position {
@@ -143,6 +143,13 @@
   margin-right: auto;
 }
 
+.ellipse-footer {
+  width: 44%;
+  height: 44%;
+  border-radius: 50%;
+  background-color: var(--white) 10%;
+}
+
 .feature-specifics {
   width: 270px;
   display: block;
@@ -188,8 +195,13 @@
   color: var(--white);
 }
 
+.footer-share-one-button {
+  fill: var(--white);
+}
+
 .footer-shares {
   margin-left: 70px;
+  width: auto;
 }
 
 .grid-three-three {
@@ -232,7 +244,7 @@
 }
 
 .icon-Line1 {
-  fill: var(--graydarkcolor);
+  fill: #afb1b8;
 }
 
 .icon-Line1:hover {
@@ -397,6 +409,12 @@
 
 .size-picture2 {
   width: 100%;
+}
+
+.svg-shares-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
 }
 
 .back-margin-right-img {
