@@ -26,14 +26,6 @@
   fill: var(--graytextntwo);
 }
 
-/*.icon-Line1 {
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}*/
-
 .icon-header:hover {
   fill: var(--blue);
 }
