@@ -26,6 +26,14 @@
   fill: var(--graytextntwo);
 }
 
+.icon-Line1 {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 .icon-header:hover {
   fill: var(--blue);
 }
@@ -42,9 +50,10 @@
 .advatange-icon-div {
   padding-top: 25px;
   padding-bottom: 25px;
-  display: block;
+  /*display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
+  position: absolute;
 }
 
 .blue-logo-part {
