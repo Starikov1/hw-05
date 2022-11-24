@@ -35,6 +35,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   width: 120px;
+  float: left;
 }
 
 .adress-links-position {
@@ -201,6 +202,7 @@
 
 .footer-shares {
   margin-left: 70px;
+  float: left;
   width: auto;
 }
 
