@@ -54,8 +54,8 @@
   margin-left: auto;
   margin-right: auto;
   /*position: absolute;*/
-  /*display: flex;
-  justify-content: center;*/
+  display: flex;
+  justify-content: center;
 }
 
 .blue-logo-part {
