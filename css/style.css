@@ -103,6 +103,20 @@
   padding-bottom: 32px;
 }
 
+.client-svg-contain {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.client-svg-set {
+  display: flex;
+  justify-content: space-between;
+}
+
 .common-upper-down {
   font-size: 14px;
 }
