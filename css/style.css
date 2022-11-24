@@ -34,6 +34,7 @@
 .address-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  width: auto;
 }
 
 .adress-links-position {
@@ -187,6 +188,10 @@
   color: var(--white);
 }
 
+.footer-shares {
+  margin-left: 70px;
+}
+
 .grid-three-three {
   display: grid;
   grid-template-columns: 370px 370px 370px;
@@ -232,6 +237,17 @@
 
 .icon-Line1:hover {
   fill: var(--blue);
+}
+
+.join-span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
 }
 
 .li-div-header {
