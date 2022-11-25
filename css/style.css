@@ -143,12 +143,15 @@
   margin-right: auto;
 }
 
+.ellipse-footer:hover {
+  background-color: var(--blue);
+}
+
 .ellipse-footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--white);
-  opacity: 10%;
+  background-color: rgba(255, 255, 255, 0.1);
   position: relative;
 }
 
@@ -213,6 +216,8 @@
 .footer-shares {
   margin-left: 70px;
   width: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .grid-three-three {
