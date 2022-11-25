@@ -392,6 +392,10 @@
   letter-spacing: 0.02em;
 }
 
+.share-buttons-center {
+  margin: 0 auto;
+}
+
 .share-one-button {
   fill: var(--secondborder);
   position: absolute;
