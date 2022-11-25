@@ -392,6 +392,15 @@
   letter-spacing: 0.02em;
 }
 
+.share-one-button {
+  fill: var(--secondborder);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
