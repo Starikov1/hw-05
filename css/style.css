@@ -143,6 +143,10 @@
   margin-right: auto;
 }
 
+.ellipse-color {
+  background-color: var(--white);
+}
+
 .ellipse-footer:hover {
   background-color: var(--blue);
 }
@@ -151,8 +155,11 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
   position: relative;
+}
+
+.ellipse-footer-color {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .feature-specifics {
@@ -276,7 +283,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
-
+  margin-top: 12px;
   margin-bottom: 20px;
 }
 
