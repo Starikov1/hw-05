@@ -53,8 +53,9 @@
 }
 
 .bgimage-div-picture1 {
-  background-image: url("./images/oneone.jpg");
-  background-repeat: no-repeat;
+  /*background-image: url("./images/oneone.jpg");
+  background-repeat: no-repeat;*/
+  background-color: #2196f3;
 }
 
 .blue-logo-part {
@@ -151,11 +152,8 @@
 }
 
 .div-picture {
-  width: 370px;
-  display: inline-block;
-  position: relative;
-  background-size: contain;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 .div-picture-label {
@@ -177,7 +175,6 @@
   bottom: 0;
   padding-top: 27px;
   padding-bottom: 27px;
-  position: absolute;
 }
 
 .ellipse-color {
