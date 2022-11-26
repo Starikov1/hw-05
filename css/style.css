@@ -21,6 +21,7 @@
   --lightbuttons: #f5f4fa;
   --headerborder: #ececec;
   --secondborder: #afb1b8;
+  --transperent-one: rgba(47, 48, 58, 0.8);
 }
 
 .icon-header {
@@ -49,6 +50,10 @@
   margin-right: auto;
   display: flex;
   justify-content: center;
+}
+
+.bgimage-div-picture1 {
+  background-image: url(./images/oneone.jpg);
 }
 
 .blue-logo-part {
@@ -142,6 +147,32 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+}
+
+.div-picture {
+  width: 370px;
+}
+
+.div-picture-label {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.div-picture-label-div {
+  width: 100%;
+  height: 70px;
+  background-color: var(--transperent-one);
+  position: fixed;
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 .ellipse-color {
