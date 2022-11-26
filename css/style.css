@@ -52,6 +52,16 @@
   justify-content: center;
 }
 
+.after-li::after {
+  content: "<div class='after-li-rectangle'></div>";
+}
+
+.after-li-rectangle {
+  height: 4px;
+  width: 100%;
+  background-color: var(--blue);
+}
+
 .bgimage-div-picture1 {
   background-image: url("./images/oneone.jpg");
 }
@@ -534,7 +544,8 @@
 
 .ul-list-vert-center {
   padding-top: 32px;
-  padding-bottom: 32px;
+  /*padding-bottom: 32px;*/
+  height: 80px;
 }
 
 .ul-list-li-vert-center {
