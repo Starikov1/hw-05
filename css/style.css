@@ -55,7 +55,6 @@
 .bgimage-div-picture1 {
   background-image: url("./images/oneone.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
 }
 
 .blue-logo-part {
@@ -153,6 +152,10 @@
 
 .div-picture {
   width: 370px;
+  display: inline-block;
+  position: relative;
+  background-size: contain;
+  margin: 0 auto;
 }
 
 .div-picture-label {
@@ -174,6 +177,7 @@
   bottom: 0;
   padding-top: 27px;
   padding-bottom: 27px;
+  position: absolute;
 }
 
 .ellipse-color {
