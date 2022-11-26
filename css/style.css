@@ -60,6 +60,8 @@
   height: 4px;
   width: 100%;
   background-color: var(--blue);
+  bottom: 0;
+  position: relative;
 }
 
 .bgimage-div-picture1 {
