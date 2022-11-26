@@ -105,8 +105,8 @@
 }
 
 .center-vert-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /*padding-top: 32px;
+  padding-bottom: 32px;*/
 }
 
 .client-svg-contain {
@@ -530,6 +530,11 @@
   margin-right: 50px;
   height: 100%;
   vertical-align: middle;
+}
+
+.ul-list-vert-center {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .ul-list-li-vert-center {
