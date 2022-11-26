@@ -53,9 +53,7 @@
 }
 
 .bgimage-div-picture1 {
-  /*background-image: url("./images/oneone.jpg");
-  background-repeat: no-repeat;*/
-  background-color: #2196f3;
+  background-image: url("./images/oneone.jpg");
 }
 
 .blue-logo-part {
@@ -152,8 +150,10 @@
 }
 
 .div-picture {
-  width: 100%;
-  height: 100%;
+  width: 370px;
+  height: 294px;
+  background-size: cover;
+  position: relative;
 }
 
 .div-picture-label {
@@ -169,12 +169,13 @@
 }
 
 .div-picture-label-div {
-  width: 100%;
-  height: 70px;
-  background-color: var(--transperent-one);
-  bottom: 0;
   padding-top: 27px;
   padding-bottom: 27px;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  bottom: 0;
+  position: absolute;
 }
 
 .ellipse-color {
