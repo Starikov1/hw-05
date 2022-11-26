@@ -52,9 +52,9 @@
   justify-content: center;
 }
 
-.after-li::after {
+/*.after-li::after {
   content: "<div class='after-li-rectangle'></div>";
-}
+}*/
 
 .after-li-rectangle {
   height: 4px;
@@ -544,10 +544,25 @@
   vertical-align: middle;
 }
 
+.li-a-div {
+  height: 48px;
+  width: 100%;
+}
+
+.li-aft:after {
+  content: "";
+  background-color: var(--blue);
+  width: 100%;
+  height: 4px;
+  display: block;
+  bottom: 0;
+  position: absolute;
+}
+
 .ul-list-vert-center {
   padding-top: 32px;
   /*padding-bottom: 32px;*/
-  height: 80px;
+  position: relative;
 }
 
 .ul-list-li-vert-center {
