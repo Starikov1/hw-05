@@ -605,6 +605,40 @@
   white-space: nowrap;
 }
 
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myBtn {
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+}
+
+.close-circle {
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal {
   /*display: none;  Hidden by default */
   position: fixed; /* Stay in place */
