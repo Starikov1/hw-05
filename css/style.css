@@ -52,10 +52,6 @@
   justify-content: center;
 }
 
-/*.after-li::after {
-  content: "<div class='after-li-rectangle'></div>";
-}*/
-
 .after-li-rectangle {
   height: 4px;
   width: 100%;
@@ -66,6 +62,14 @@
 
 .bgimage-div-picture1 {
   background-image: url("./images/oneone.jpg");
+}
+
+.bgimage-div-picture2 {
+  background-image: url("./images/onetwo.jpg");
+}
+
+.bgimage-div-picture3 {
+  background-image: url("./images/onethree.jpg");
 }
 
 .blue-logo-part {
@@ -588,8 +592,9 @@
 }
 
 .upper-central-part-page-one {
-  background-color: var(--graydarkcolor);
   letter-spacing: 0.06em;
+
+  background-image: url("./images/Overlay.jpg");
 }
 
 .your-team {
