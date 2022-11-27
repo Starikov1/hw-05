@@ -706,3 +706,7 @@
   top: 100%;
   left: 0;
 }
+
+.modal {
+  display: none;
+}
